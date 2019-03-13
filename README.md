@@ -21,8 +21,7 @@ git checkout -b mygit upstream/master
   git push -f origin mygit
   ```
 - How to squash your commits
-```
-```
+  - Refer to https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/ for detail.
 - How to rebase
 ```
 git fetch upstream
@@ -31,5 +30,23 @@ git fetch upstream
 git rebase upstream/master
 ```
 - How to resolve conflict
+If `git rebase` has some conflict, then we need to resolve conflict first.
 ```
+git rebase upstream/master
+```
+
+```
+Update files to resolve conflict
+```
+
+```
+git rebase --continue
+```
+
+```
+git add .
+```
+
+```
+git commit --amend
 ```
