@@ -1,0 +1,2 @@
+# mygit
+Practise Git Command
