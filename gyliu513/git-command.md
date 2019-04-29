@@ -1,11 +1,25 @@
 # Practise Git Command
 
+- Clone Your Code
+
+```
+git clone <your forked repo>
+```
+
+- Add upstream
+
+```
+git remote add upstream https://github.com/multicloudlab/mygit
+```
 - Cut Branch
+
 ```
 git checkout -b mygit upstream/master
 ```
+
 - How to update PR
   - update commit with --amend
+
   ```
   git commit --amend
   ```
