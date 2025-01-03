@@ -44,20 +44,17 @@ git rebase upstream/master
 ```
 - How to resolve conflict
 If `git rebase` has some conflict, then we need to resolve conflict first.
-```
-git rebase upstream/master
-```
 
 ```
 Update files to resolve conflict
 ```
 
 ```
-git rebase --continue
+git add .
 ```
 
 ```
-git add .
+git rebase --continue
 ```
 
 ```
