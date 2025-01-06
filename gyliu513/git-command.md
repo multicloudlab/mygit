@@ -14,7 +14,27 @@ git remote add upstream https://github.com/multicloudlab/mygit
 - Cut Branch
 
 ```
-git checkout -b mygit upstream/master
+git checkout -b <your branch> upstream/master
+```
+
+- Update your code
+
+```
+vim xxx
+```
+
+- Commit your code
+
+```
+git add .
+```
+
+```
+git commit -m "description"
+```
+
+```
+git push origin <your branch>
 ```
 
 - How to update PR
@@ -24,14 +44,14 @@ git checkout -b mygit upstream/master
   git commit --amend
   ```
   ```
-  git push -f origin mygit
+  git push -f origin <your branch>
   ```
   - add new commit
   ```
   git commit -a
   ```
   ```
-  git push -f origin mygit
+  git push -f origin <your branch>
   ```
 - How to squash your commits
   - Refer to https://www.devroom.io/2011/07/05/git-squash-your-latests-commits-into-one/ for detail.
