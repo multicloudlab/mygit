@@ -80,3 +80,23 @@ git rebase --continue
 ```
 git commit --amend
 ```
+
+- Check commit history
+```
+git log --oneline --graph --decorate --all
+```
+
+- Undo last commit (keep changes staged)
+```
+git reset --soft HEAD~1
+```
+
+- Stash changes (save without commit)
+```
+git stash
+```
+
+- Check current branch, staged/unstaged changes, untracked files, and sync status with remote
+```
+git status
+```
